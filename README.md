@@ -1,26 +1,33 @@
-# Pete's Pet Emporium!
+# Reddit
 
-This is the starter project of the Pete's Pet tutorial.
+<p align="center">
+<img alt="Screenshot" src="./screenshot.png" width="auto">
+</p>
 
-## Tasks
+## Built With
 
-### Simple Search & Pagination
-Add a search bar in the navbar to search pets. Paginate the results.
+- [PUG](https://pugjs.org/api/getting-started.html)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [Node](https://nodejs.org/en/)
+- [Handlebars](https://handlebarsjs.com)
+- [Bootstrap](https://getbootstrap.com)
 
-### Validations
-Add validations to protect against unsanitary data getting into your db.
+## Getting Started
+1. In order to clone the repository to your local machine, run the following command below or click the green Code button on the top right corner of the repository and then select Open with GitHub Desktop option or select Download ZIP option.
+```zsh
+git clone https://github.com/alisherbegmatov/petes-pets.git
+```
+## Installation
+2. Open the project in the text / code editor of your choice and in the terminal, run the following command below:
+```zsh
+npm i or npm install
+```
+## Run
+3. After installation of the required packages / dependencies, in the terminal, run the following command below:
+```zsh
+node or nodemon
+```
+4. In the terminal, open (Command + Click) [http://localhost:3000](http://localhost:3000) to run the project on your local machine in the default browser.
 
-### Upload Images
-Upload pictures of pets from new and edit forms
-
-### Payment Gateways
-Buy pets using Stripe.
-
-### Send Emails
-Send an email when a pet is purchased.
-
-### Full Text Search
-Fuzzy and full-text search on multiple criteria
-
-### Responding to JSON
-Make your project into a full API
+## License
+Distributed under the MIT License. See LICENSE.txt for more information.

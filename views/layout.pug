@@ -1,14 +1,14 @@
 doctype html
 html
   head
-    title Proud Pete's Pet Emporium
+    title Petes Pet Emporium
 
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous")
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href="https://bootswatch.com/4/lux/bootstrap.min.css")
   body
 
     nav.navbar.navbar-expand-sm.navbar-light.bg-light
-      a.navbar-brand(href='/') Proud Pete's Pet Emporium
+      a.navbar-brand(href='/') Petes Pet Emporium
       button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
         span.navbar-toggler-icon
       #navbarSupportedContent.collapse.navbar-collapse
@@ -20,7 +20,7 @@ html
         input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search' name='term')
         button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
 
-    .container
+    .container.min-vh-100.py-5
       .alert#alert(style="display:none;")
       block content
 
@@ -29,7 +29,7 @@ html
         .container
           .row.py-3
             .col-md-9
-              p.text-white Proud Pete's Pet Emporium &#xA9; 2018
+              p.text-white Petes Pet Emporium &#xA9; 2022
 
 
     script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous")
